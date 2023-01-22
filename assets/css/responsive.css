@@ -316,6 +316,14 @@
     .footer__x__bottom {
         padding: 0 20px 15px;
     }
+
+
+    .hero-social a {
+        right: 0;
+    }
+    .hero-social {
+        right: -28px;
+    }
 }
 
 
@@ -325,20 +333,216 @@
 
 
 @media (max-width: 991px) {
- 
+    .header-top {
+        display: none;
+    }
+    .menu-open {
+        display: block;
+    }
+    .header-logo {
+        max-width: 130px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        padding-bottom: 3px;
+    }
+    .hero-content h1 {
+        font-size: 35px;
+        padding-bottom: 4px;
+    }
+    .hero-slider .owl-nav button {
+        width: 20px !important;
+    }
+    .hero-slider .owl-nav {
+        padding: 0 6%;
+    }
+    .history-data-wrapper {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cta__form {
+        width: 380px;
+    }
+    .cta-area::after {
+        left: calc(50% - 80px);
+    }
+    .section-bg {
+        display: none;
+    }
+
+
+    .footer-area {
+        overflow: hidden;
+    }
+    .footer__bottom {
+        flex-wrap: wrap;
+    }
+    .footer__about__column {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        background: transparent;
+    }
+    .footer__about__column::after {
+        content: '';
+        height: 100%;
+        width: 6000px;
+        z-index: -1;
+        background: #585858;
+        left: -3000px;
+        top: 0;
+        position: absolute;
+        display: block;
+    }
+    .footer__x-area {
+        width: 100%;
+    }
+
+
+    .hero-area {
+        overflow: hidden;
+    }
+
+
 }
 
 
 @media (max-width: 768px) {
- 
+    .hero-content p {
+        font-size: 14px;
+    }
+    .hero-content h1 {
+        font-size: 25px;
+        padding-bottom: 4px;
+    }
+    .hero-area {
+        padding-top: 50px;
+    }
+    .hero-slider .owl-nav button {
+        width: 15px !important;
+    }
+    .hero-slider .owl-nav {
+        padding: 0 3%;
+    }
+    .hero-social {
+        top: 240px;
+    }
+    .hero-cta {
+        border-radius: 12px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .history-thumbnail {
+        margin-bottom: 20px;
+    }
+    .history-data-item {
+        margin-bottom: 25px;
+    }
+
+    .event-card-thumb {
+        width:100%;
+        height: 200px;
+        margin: 0 0 25px;
+    }
+    .event-card-body-top {
+        flex-direction: column;
+    }
+    .event-card {
+        flex-wrap: wrap;
+    }
+
+    .cta-area__inner {
+        flex-direction: column;
+    }
+    .cta-area::after {
+        display: none;
+    }
+    .cta-left {
+        margin: 0 0 25px;
+    }
+    .cta__form {
+        width: 100%;
+    }
+    .cta__right {
+        width: 100%;
+    }
+
+    .testimonial__content {
+        padding: 45px 30px;
+    }
+    
+    .gallery-area__title {
+        flex-direction: column;
+    }
+    .tab-nav li a {
+        padding: 0px 9px;
+        font-size: 13px;
+    }
+    .tab-nav li a .a-in {
+        padding: 5px 0;
+    }
+    .gallery-area__title__left {
+        margin: 0 0 20px;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 12px;
+    }
+
+
+    .footer__x__top {
+        padding: 25px 0px;
+    }
+    .footer__r-menu {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .footer__x__bottom {
+        gap: 15px;
+        padding: 0 0px 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy-right {
+        text-align: center;
+    }
+
+    .hero-cta {
+        margin-top: 80px;
+    }
 }
 
 
 @media (max-width: 575px) {
- 
+    
 }
 
 
-@media (max-width: 390px) {
- 
+@media (max-width: 370px) {
+    .hero-wrapper {
+        border-radius: 12px;
+        padding: 40px 20px;
+    }
+    .hero-content h1 {
+        font-size: 20px;
+    }
+    .hero-content-btns {
+        gap: 15px;
+    }
+
+    .cta-left {
+        gap: 15px;
+    }
+    .tab-nav li a {
+        padding: 0px 6px;
+        font-size: 12px;
+    }
 }
