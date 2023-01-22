@@ -1,0 +1,344 @@
+
+
+@media (max-width: 1399px) {
+    .header-top li span {
+        margin-right: 8px;
+    }
+    .header-top li {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .header-top-right a {
+        padding: 10px 25px;
+    }
+    .header-logo {
+        max-width: 195px;
+    }
+    .header-nav ul li a {
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .header-main {
+        padding: 7px 0;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    .hero-content h1 {
+        font-size: 54px;
+        padding-bottom: 8px;
+    }
+    .common-btn {
+        font-size: 15px;
+        border-radius: 4px;
+        padding: 8px 25px;
+        border-width: 1px;
+    }
+    .hero-wrapper {
+        border-radius: 18px;
+        padding: 50px 30px;
+    }
+    .hero-area {
+        padding-top: 110px;
+    }
+    .hero-cta {
+        padding: 5px 7px;
+        max-width: 700px;
+        margin-top: 100px;
+    }
+    .hero-cta__left {
+        font-size: 15px;
+    }
+    .hero-cta__left span {
+        margin-right: 12px;
+        max-width: 35px;
+    }
+    .hero-cta-right a {
+        font-size: 14px;
+        padding: 11px 13px;
+    }
+    .hero-slider .owl-nav {
+        padding: 0 3%;
+    }
+    .hero-slider .owl-nav button {
+        width: 35px !important;
+    }
+    .hero-social a {
+        width: 60px;
+        height: 35px;
+        font-size: 18px;
+        padding: 4px;
+        padding-right: 27px;
+        margin-bottom: 6px;
+        right: -28px;
+    }
+
+
+    .history-area {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .a-icon {
+        max-width: 23px;
+        margin: 0 9px;
+    }
+    .award-icon {
+        margin-bottom: 12px;
+    }
+    .history-content-inner {
+        padding: 25px;
+    }
+    .history-content-inner h5 {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .history-content-inner h3 {
+        font-size: 27px;
+    }
+    .history-data-item h3 span {
+        top: -7px;
+        margin-right: 8px;
+        width: 35px;
+    }
+    .history-data-item h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .history-data-item h5 {
+        font-size: 17px;
+    }
+    .history-data-wrapper {
+        max-width: 750px;
+        margin-top: -50px;
+        padding: 25px 10px;
+        padding-bottom: 10px;
+    }
+    .history-data-item {
+        margin-bottom: 17px;
+    }
+
+
+    .section-title-top h6 {
+        font-size: 16px;
+        margin-right: 9px;
+        margin-left: 13px;
+    }
+    .section-title h3 {
+        font-size: 27px;
+    }
+    .tour-area {
+        padding: 50px 0;
+    }
+    .tour-list {
+        padding-top: 25px;
+    }
+    .tour-list li span {
+        margin-right: 10px;
+        width: 18px;
+    }
+    .tour-list li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+    .event__cards {
+        padding-top: 20px;
+    }
+    .event-card-thumb {
+        width: 140px;
+        height: 144px;
+        margin-right: 13px;
+    }
+    .event-card-body-top p span {
+        top: -3px;
+        margin-right: 8px;
+        width: 12px;
+    }
+    .event-card-body-top p {
+        margin-bottom: 10px;
+        font-size: 13px;
+        margin-right: 12px;
+    }
+    .event-card-content p {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .event-card.large .event-card-content p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .award-icon-border span {
+        width: 50px;
+        margin: 2px 0;
+    }
+
+    .cta-left__icon {
+        height: 50px;
+        width: 50px;
+        border-width: 1px;
+    }
+    .cta-left__icon img {
+        width: 25px;
+    }
+    .section-title-top {
+        margin-bottom: 10px;
+    }
+    .cta__form {
+        width: 540px;
+        height: 48px;
+    }
+    .cta__form .input {
+        padding: 8px 23px;
+        font-size: 16px;
+    }
+    .cta__form .submit {
+        height: 39px;
+        width: 39px;
+    }
+    .cta-area {
+        padding: 40px 0 33px;
+    }
+
+    .testimonial-area__title {
+        margin: 0 0 32px;
+    }
+    .testimonial__content::after {
+        --inp: 12px;
+    }
+    .testimonial__content {
+        padding: 45px;
+    }
+    .testimonial__content .quote {
+        width: 50px;
+        margin: 0 auto 20px;
+    }
+    .testimonial-slider {
+        max-width: 600px;
+    }
+    .testimonial-slide__auth h4 {
+        font-size: 16px;
+    }
+    .testimonial-slide__auth {
+        margin: 30px 0 0;
+    }
+    .slider-arrow-2 .owl-nav button {
+        font-size: 20px !important;
+    }
+    .testimonial-slider .owl-nav {
+        width: 122px;
+        top: -43px;
+    }
+
+    .tab-nav li a {
+        padding: 0px 18px;
+        font-size: 17px;
+    }
+    .tab-nav li a .a-in {
+        padding: 10px 0;
+    }
+    .gallery-area__title {
+        margin: 0 0 30px;
+    }
+    .gallery-grid {
+        grid-gap: 15px;
+    }
+
+
+    .blog-date {
+        width: 50px;
+        padding: 10px 5px;
+        font-size: 20px;
+    }
+    .blog-date small {
+        font-size: 15px;
+    }
+    .blog-card-thumb {
+        height: 253px;
+    }
+    .blog-content {
+        padding: 10px 14px;
+        font-size: 13.5px;
+    }
+
+    .footer-menu li a {
+        font-size: 15px;
+    }
+    .footer-menu {
+        gap: 10px;
+    }
+    .footer__top {
+        padding: 15px 0;
+    }
+    .footer__logo {
+        width: 140px;
+        margin: 0 0 15px;
+    }
+    .footer__about__column p {
+        font-size: 12.5px;
+    }
+    .footer__about__column {
+        padding: 20px 17px;
+        width: 225px;
+    }
+    .footer__r-menu li a .icon {
+        width: 30px;
+    }
+    .footer__r-menu li a {
+        gap: 10px;
+    }
+    .footer__r-menu li a .txt h4 {
+        font-size: 17px;
+        margin: 0 0 3px;
+    }
+    .footer__r-menu li a .txt p {
+        font-size: 14px;
+    }
+    .f-s-menu li a {
+        height: 25px;
+        width: 25px;
+        font-size: 13px;
+        border-radius: 3px;
+    }
+    .copy-right {
+        font-size: 14px;
+    }
+    .footer__x__top {
+        padding: 25px 30px;
+    }
+    .footer__x__bottom {
+        padding: 0 20px 15px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+ 
+}
+
+
+@media (max-width: 991px) {
+ 
+}
+
+
+@media (max-width: 768px) {
+ 
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 390px) {
+ 
+}
